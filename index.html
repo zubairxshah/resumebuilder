@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Resume Builder</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div id="form-container">
+        <h1>Resume Builder</h1>
+        <form id="resume-form">
+            <!-- Personal Information -->
+            <h2>Personal Information</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <!-- Education -->
+            <h2>Education</h2>
+            <div id="education-entries">
+                <div class="education-entry">
+                    <label for="degree">Degree:</label>
+                    <input type="text" id="degree" name="degree">
+
+                    <label for="institution">Institution:</label>
+                    <input type="text" id="institution" name="institution">
+
+                    <label for="graduationDate">Graduation Date:</label>
+                    <input type="date" id="graduationDate" name="graduationDate">
+
+                    <button type="button" class="add-entry">Add Education</button>
+                    <button type="button" class="remove-entry">Remove Education</button>
+                </div>
+            </div>
+
+            <!-- Work Experience -->
+            <h2>Work Experience</h2>
+            <div id="work-experience-entries">
+                <div class="work-experience-entry">
+                    <label for="jobTitle">Job Title:</label>
+                    <input type="text" id="jobTitle" name="jobTitle">
+
+                    <label for="companyName">Company Name:</label>
+                    <input type="text" id="companyName" name="companyName">
+
+                    <label for="startDate">Start Date:</label>
+                    <input type="date" id="startDate" name="startDate">
+
+                    <label for="endDate">End Date:</label>
+                    <input type="date" id="endDate" name="endDate">
+
+                    <button type="button" class="add-entry">Add Experience</button>
+                    <button type="button" class="remove-entry">Remove Experience</button>
+                </div>
+            </div>
+
+            <!-- Skills -->
+            <h2>Skills</h2>
+            <div id="skills-entries">
+                <div class="skills-entry">
+                    <label for="skill">Skill:</label>
+                    <input type="text" id="skill" name="skill">
+
+                    <button type="button" class="add-entry">Add Skill</button>
+                    <button type="button" class="remove-entry">Remove Skill</button>
+                </div>
+            </div>
+
+            <button type="submit" class="generate-button">Generate Resume</button>
+        </form>
+    </div>
+
+    <div id="resume-container" style="display: none;">
+        <h1>Resume</h1> 
+        <h2>Education</h2>
+        <ul id="education-list">
+            </ul> 
+
+        <h2>Work Experience</h2>
+        <ul id="work-experience-list">
+            </ul>
+
+        <h2>Skills</h2>
+        <ul id="skills-list">
+            </ul>
+    </div>
+
+    <script src="./scripts/script.js" type="module"></script> 
+</body>
+</html>

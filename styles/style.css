@@ -1,0 +1,217 @@
+body {
+    body {
+        background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/10/free-website-background-01.jpg"); /* Replace with your desired background image URL */
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: 'Arial', sans-serif; 
+        color: #333; 
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+    }
+    
+    #form-container, #resume-container {
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 20px;
+        width: 80%; 
+        max-width: 800px; 
+    }
+    
+    h1, h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    h1 {
+        font-size: 2.5em;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    
+    input, textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    
+    button {
+        background-color: #007bff; 
+        color: #fff;
+        border: none;
+        padding: 12px 20px;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    button:hover {
+        background-color: #0056b3; 
+    }
+    
+    .remove-entry {
+        background-color: #dc3545; 
+        margin-left: 5px; 
+    }
+    
+    .remove-entry:hover {
+        background-color: #c82333; 
+    }
+    
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    li {
+        padding: 5px 0;
+        border-bottom: 1px solid #eee;
+    }
+    
+    li:last-child {
+        border-bottom: none;
+    }
+    
+    .generate-button {
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif; 
+    color: #333; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#form-container, #resume-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 80%; 
+    max-width: 800px; 
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff; 
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+
+.remove-entry {
+    background-color: #dc3545; 
+    margin-left: 5px; 
+}
+
+.remove-entry:hover {
+    background-color: #c82333; 
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.generate-button {
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+
+.edit-buttons {
+    display: flex;
+    margin-left: 10px; 
+}
+
+.edit-button, .close-button {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.close-button {
+    background-color: #f44336; 
+}
+
+.edit-textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    resize: none; 
+}
